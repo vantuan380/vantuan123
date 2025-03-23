@@ -1,0 +1,12 @@
+#!url=https://vantuan2703/module/iscreen.module
+#!name=iScreen💤.mudule
+#!desc= By: ѵăռŧυấռ 💤
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/.png
+#!homepage=https://vantuan2703
+#!author=89996462
+[Script]
+iScreenn=type=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/iScreenn.js
+
+
+[MITM]
+hostname = %APPEND% buy.itunes.apple.com
